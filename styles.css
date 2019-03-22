@@ -1,0 +1,137 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.header-nav ul li {
+  float: left;
+  list-style: none;
+  width: 14.28%;
+  height: 140px;
+  padding: 30px 0;
+  background-color: #999;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.header-nav ul li span {
+  padding: 5px 15px;
+  border: 1px solid #fff;
+}
+
+.header-nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.dont-miss > div {
+  float: left;
+  width: 50%;
+  height: 600px;
+  padding: 300px 50px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.dont-miss > div:nth-child(3) {
+  background-color: #666;
+}
+
+.dont-miss > div:nth-child(4) {
+  background-color: #888;
+}
+
+.dont-miss > div:nth-child(5) {
+  background-color: #777;
+}
+
+.dont-miss > div:nth-child(6) {
+  background-color: #666;
+}
+
+.dont-miss:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#one, #two {
+  height: 40px;
+  padding: 3px;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.dont-miss #one {
+  position: absolute;
+  top: 200px;
+  left: 520px;
+  width: 23%;
+}
+
+.dont-miss #two {
+  position: absolute;
+  top: 240px;
+  left: 620px;
+  width: 8%;
+}
+
+.latest > div {
+  float: left;
+  width: 33.333%;
+  height: 600px;
+  padding: 40px 25px;
+  background-color: #eee;
+  color: #000;
+}
+
+.latest:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.latest h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.latest p {
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+}
+
+footer {
+  height: 400px;
+  background-color: #999;
+  color: #eee;
+}
+
+footer ul {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 70px;
+  text-align: center;
+}
+
+footer li {
+  float: left;
+  margin: 15px 25px;
+  font-family: 'Noto Serif', serif;
+  font-size: 25px;
+}
